@@ -1,20 +1,14 @@
-
-##  Series-Queues-with-infinite-capacity--OPEN-JACSON-NETWORKS-
-
-## NAME : Abhishek Kannan M
-
-## REGISTER NUMBER : 212224040007
-# Date:17/3/26
+# Series Queues with infinite capacity - Open Jackson Network
+# Name: Abhishek Kannan M
+# Reg no: 212224040007
 
 ## Aim :
-
 To find (a) average number of materials in the system (b) average number of materials in the each conveyor of (c) waiting time of each material in the system (d) waiting time of each material in each conveyor, if the arrival  of materials follow Poisson process with the mean interval time 12 seconds, service time of  lathe machine in series follow exponential distribution  with service time  1 second, 1.5 seconds and 1.3 seconds respectively and average service time of robot is 7 seconds.
 
 ## Software required :
-
 Visual components and Python
 
-## Theory :
+## Theory
 
 ![image](https://user-images.githubusercontent.com/103921593/203239736-7b81f599-71a8-4ae7-b63e-5d98acd9ea54.png)
 
@@ -26,14 +20,11 @@ Visual components and Python
 
 ## Experiment:
 
-![image](https://github.com/user-attachments/assets/ce7f3803-6e49-4f15-ba1a-66863e8d88ad)
 
-
-## Program :
-
-``` 
-  DEVELOPED BY : INFANT JESUS S
-  REGISTER NO : 212224240058
+## Program:
+```
+  DEVELOPED BY : Jashwin S
+  REGISTER NO : 212224040131
   
   arr_time=float(input("Enter the mean inter arrival time of objects from Feeder (in secs): "))
   ser_time1=float(input("Enter the mean  inter service time of Lathe Machine 1 (in secs) :  "))
@@ -73,10 +64,11 @@ Visual components and Python
       print("Warning! Objects Over flow will happen in the conveyor")
   print("----------------------------------------------------------------------")
 ```
-## Output :
- 
-![image](https://github.com/user-attachments/assets/bb3f3739-6d8a-4452-ad34-f1c72b922ab5)
 
-## Result :
 
+## Output:
+<img width="1072" height="539" alt="image" src="https://github.com/user-attachments/assets/c095c449-7915-46fe-9c99-8df93521211e" />
+
+
+## Result:
 The average number of material in the system and in the conveyor and waiting time are successfully found.
